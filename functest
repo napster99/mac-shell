@@ -1,0 +1,24 @@
+#! /bin/bash
+
+
+function func1(){
+	echo 'this is my first function'
+}
+
+ func2(){
+	echo 'my two func2'
+	return 20
+}
+
+
+func1
+func2
+
+echo "$?"
+
+
+value=`func1`
+echo "$value"
+
+
+
