@@ -3,4 +3,16 @@
 
 
 
-echo 'zhangxiaojian'
+echo 'please input a number'
+
+read num
+
+if [ $num -gt 10 ] 
+then 	
+	echo "the number is greater than 10"
+fi
+
+if [ $num -lt 10 ] && [ $num -gt 5 ]
+then
+	echo "the number is greater than 5 and less then 10"
+fi
